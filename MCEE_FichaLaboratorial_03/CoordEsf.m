@@ -1,8 +1,8 @@
 function [r, t, f] = CoordEsf(x, y, z)
 % CoordEsf converte valores em coordenadas cartesianas em coordenadas esféricas.
-% [r, theta, phi] = CoordEsf(x, y, z)
-% x, y, e z devem ser vetores com a mesma dimensão
-% theta e phi são calculados em graus.
+%  [r, theta, phi] = CoordEsf(x, y, z)
+%  x, y, e z devem ser vetores com a mesma dimensão
+%  theta e phi são calculados em graus.
 
 % Verificar se são vetores
 if ~isvector(x) || ~isvector(y) || ~isvector(z) 
