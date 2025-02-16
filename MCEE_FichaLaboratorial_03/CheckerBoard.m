@@ -6,7 +6,7 @@ if n < 1
 end
 
 M = zeros(n,n);
-par = rem(n,2);
+par = rem(n,2); % ou seja resto de qualquer numero por 2 é 0
 
 if par ~= 0
     for k = 1:2:n
